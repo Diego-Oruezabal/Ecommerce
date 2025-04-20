@@ -1,4 +1,11 @@
-<x-admin-layout>
+<x-admin-layout :breadcrumbs="[
+    [
+        'name' => 'Dashboard',
+
+    ],
+
+
+]">
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
